@@ -23,7 +23,7 @@
 
       localStorage.setItem("lastSearchedCity", city);
 
-      const excludedKeys = ["Imsak", "Firstthird", "Lastthird", "Midnight"];
+      const excludedKeys = ["Imsak", "Firstthird", "Lastthird", "Midnight", "Sunset"];
       const timings = await fetchPrayerTime(city);
 
       if (timings) {
